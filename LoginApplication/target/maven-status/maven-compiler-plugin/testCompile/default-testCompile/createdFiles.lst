@@ -1,0 +1,6 @@
+com\company\api\dto\AccessTokenTest.class
+com\company\api\service\LoginServiceTest.class
+com\company\api\mapper\LoginResponseMapperTest.class
+com\company\api\validator\EmailValidatorTest.class
+com\company\api\controller\AuthenticationControllerTest.class
+com\company\api\controller\HomeControllerTest.class
