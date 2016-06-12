@@ -21,7 +21,7 @@ public class HomeController {
 	public HomePageResponseDTO getWelcomeMessage(@RequestHeader(required = true) AccessToken token) {
 		if (service.isCorrectInformation(token.getEmail(), token.getName())) {
 			HomePageResponseDTO response = new HomePageResponseDTO();
-			response.setMessage("Hello " + token.getName());
+			response.setMessage(token.getName());
 			return response;
 		}
 	throw new BadRequestException("Incorrect name and email combination");

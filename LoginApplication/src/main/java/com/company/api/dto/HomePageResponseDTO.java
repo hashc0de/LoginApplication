@@ -9,7 +9,7 @@ public class HomePageResponseDTO {
 	}
 
 	public void setMessage(String message) {
-		this.message = message;
+		this.message = "Hello " + message;
 	}
 	
 	
